@@ -18,12 +18,67 @@
 .ui-container {
     height: 80%;
     width: 60%;
-    background-color: pink;
+    overflow-y: auto;
 }
 
 .book-container {
     width: 100%;
-    height: 25%;
+    height: 30%;
     background-color: #212140;
+    display: flex;
+    cursor: pointer;
+}
 
+.icon-container {
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-style {
+    height: 80%;
+    width: 80%;
+}
+
+.book-wrapper {
+    height: 100%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.common-padding {
+    padding-left: 20px;
+}
+
+.book-detail-container {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.book-title-container {
+    width: 100%;
+    height: 30%;
+}
+
+.book-title {
+    color: white;
+    font-family: sans-serif;
+    letter-spacing: 1px;
+    font-weight: bold;
+}
+
+.book-author {
+    font-size: 12px;
+    font-weight: normal;
+    color: #888;
+    font-family: sans-serif;
+    letter-spacing: 1px;
 }
