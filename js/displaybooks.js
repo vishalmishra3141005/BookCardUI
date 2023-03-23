@@ -53,6 +53,15 @@ function createUI() {
 
         newBook.appendChild(bookWrapper);
         uiContainer.appendChild(newBook);
+
+
+        newBook.addEventListener("click", function() {
+            if (currClicked != undefined) {
+                currClicked.style.height = "40%";
+            }
+            currClicked = newBook;
+            newBook.style.height = "60%";
+        });
     }
 }
 
