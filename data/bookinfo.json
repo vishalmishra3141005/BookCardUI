@@ -1,5 +1,6 @@
 [
     {
+        "bookid": "1",
         "images" : "ring-book.jpg",
         "book" : {
             "title" : "The Fellowship of the Ring",
@@ -10,6 +11,7 @@
     },
 
     {
+        "bookid": "2",
         "images" : "ring-book.jpg",
         "book" : {
             "title" : "1984",
@@ -20,6 +22,7 @@
     },
 
     {
+        "bookid" : "3",
         "images" : "mocking-bird.jpg",
         "book" : {
             "title" : "To Kill a Mockingbird",
