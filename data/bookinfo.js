@@ -1,4 +1,6 @@
-[
+
+
+const books = [
     {
         "bookid": "1",
         "images" : "ring-book.jpg",
@@ -12,7 +14,7 @@
 
     {
         "bookid": "2",
-        "images" : "ring-book.jpg",
+        "images" : "1984-book.jpg",
         "book" : {
             "title" : "1984",
             "author": "George Orwell",
